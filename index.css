@@ -1,0 +1,13 @@
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul p {
+  width: 200px;
+}
+
+ul img {
+  margin: 1rem;
+}
