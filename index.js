@@ -10,7 +10,7 @@ async function getMovieData() {
 
   // fetch로 데이터 불러오기
 
-  const res = await fetch(`https://www.omdbapi.com/?apikey=3d5f1495&s=${word}`);
+  const res = await fetch(`http://www.omdbapi.com/?apikey=3d5f1495&s=${word}`);
   const movieData = await res.json();
   console.log("movieData >>> ", movieData);
 
